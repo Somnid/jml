@@ -1,0 +1,34 @@
+{
+	"head" : {
+		"children" : [
+			{
+				"tag" : "title",
+				"children" : "HTML Page"
+			},
+			{
+				"tag" : "link",
+				"attrs" : {
+					"rel" : "stylesheet",
+					"href" : "css/index.css"
+				}
+			},
+			{
+				"tag" : "meta",
+				"name" : "viewport",
+				"attrs" : {
+					"content" : "width=device-width, initial-scale=1, maximum-scale=1"
+				}
+			}
+		]
+	},
+	"body" : {
+		"children" : [
+			{
+				"tag" : "script",
+				"attrs" : {
+					"src" : "js/index.js"
+				}
+			}
+		]
+	}
+}
